@@ -1,0 +1,22 @@
+<h1> Hello edit</h1>
+
+<h2> I should be showing an editing form </h2>
+
+  <form action="/api/update/:id" method="post">
+       
+            <label for="name">Name:</label>
+            <input type="text" ng-model="data.name" name="name" />
+
+            </br>
+
+            <label for="age">Age:</label>
+            <input type="text" ng-model="data.age" name="age" />
+
+            </br>
+
+             <label for="occupation">Occupation:</label>
+            <input type="text" ng-model="data.job" name="occupation" />
+            <br>
+
+        <input type="submit" value="Submit" ng-click="submitForm(data)" />
+</form>

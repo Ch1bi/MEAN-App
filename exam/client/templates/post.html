@@ -1,0 +1,22 @@
+<h1> Hello post</h1>
+
+<h2> I should be a posting form </h2>
+
+ <form action="/api/post" method="post">
+       
+            <label for="name">Name:</label>
+            <input type="text" ng-model="data.name" name="name" />
+
+            </br>
+
+            <label for="age">Age:</label>
+            <input type="text" ng-model="data.age" name="age" />
+
+            </br>
+
+             <label for="occupation">Occupation:</label>
+            <input type="text" ng-model="data.job" name="job" />
+            <br>
+
+        <input type="submit" value="Submit" ng-click="submitForm();" />
+</form>
